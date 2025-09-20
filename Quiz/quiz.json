@@ -1,0 +1,15 @@
+[ {"question": "Who developed Python Programming Language?", "options": ["A.) Wick van Rossum", "B.) Rasmus Lerdorf", "C.) Guido van Rossum", "D.) Niene Stom"], "answer": "C"},
+{"question": "Which type of Programming does Python support?", "options": ["A.) object-oriented programming", "B.) structured programming", "C.) functional programming", "D.) all of the mentioned"], "answer": "D"},
+
+{"question": "Which of the following is the correct extension of the Python file?", "options": ["A.) .py", "B.) .python", "C.) .p", "D.) .pt"], "answer": "A"},
+
+{"question": "All Keywords in Python are in _________", "options": ["A.) lowercase", "B.) UPPERCASE", "C.) Capitalized", "D.) None of the mentioned"], "answer": "D"},
+
+{"question": "Which of the following is used to define a block of code in Python language?", "options": ["A.) Indentation", "B.) Key", "C.) Brackets", "D.) All of the mentioned"], "answer": "A"},
+
+{"question": " What is the order of namespaces in which Python looks for an identifier?", "options": ["A.) Python first searches the built-in namespace, then the global namespace and finally the local namespace", "B.) Python first searches the built-in namespace, then the local namespace and finally the global namespace", "C.) Python first searches the local namespace, then the global namespace and finally the built-in namespace"], "answer": "A"},
+
+{"question": "What will be the output of the following Python code snippet: \n for i in [1, 2, 3, 4][::-1]:\n    print(i, end=' ')", "options": ["1 2 3 4", "4 3 2 1", "[4, 3, 2, 1]", "None of the mentioned"], "answer": "4 3 2 1"},
+
+{"question" : "What will be the output of the following Python code?\n class tester: def __init__(self, id): self.id = str(id) id='224' temp = tester(12) print(temp.id)" , "options" : [12, "224", "12", "Error" ], "answer" : "12"    }
+]
