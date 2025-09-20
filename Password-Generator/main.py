@@ -39,3 +39,8 @@ for i in range (length):
     password.append(randomCharacter)
 
 print("The Password is: "+"".join(password))
+
+#Added feature to save password in a text file
+with open("Password.txt", "w") as file:
+    file.write("".join(password))
+print("Password saved in Password.txt file")
